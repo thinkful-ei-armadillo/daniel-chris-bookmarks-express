@@ -1,4 +1,5 @@
-/* eslint-disable strict */
+'use strict'; 
+
 const bookmarks = [
   {
     id:1,
@@ -6,3 +7,5 @@ const bookmarks = [
     description:'search engine'
   }
 ];
+
+module.exports = { bookmarks }; 
